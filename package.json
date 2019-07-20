@@ -29,9 +29,7 @@
   "homepage": "https://github.com/SaKaMaSoft/onlineTest.git#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
-  },
-  "dependencies": {
+    "mocha": "^4.0.1",
     "nodemon": "^1.19.1",
     "nyc": "^14.1.1"
   },

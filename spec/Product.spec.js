@@ -14,6 +14,17 @@ const products = [
 
 describe("[Product]", function () {
 
+  describe("[validatePrice]", function () {
+    it("Should return same days", function () {
+      const product = new Product();
+      expect(product.validatePrice(80, 'MC')).to.equal(80);
+    });
+    it("Should return days -1", function () {
+      const product = new Product();
+      expect(product.validatePrice(3, 'XX')).to.equal(3);
+    });
+  });
+
   describe("[getType]", function () {
     it("Should be ST", function () {
       expect(products[0].getType()).to.eql('ST');

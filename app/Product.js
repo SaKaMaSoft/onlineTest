@@ -2,8 +2,15 @@ class Product {
   constructor(name, sellIn, price) {
     this.name = name;
     this.sellIn = sellIn;
-    this.price = price;
     this.type = this.getType(this.name);
+    this.price = this.validatePrice(price, this.type);
+  }
+
+  validatePrice(price, type) {
+    if (price > 50 && type !== 'MC') {
+      return 50;
+    }
+    return price;
   }
 
   getType() {
