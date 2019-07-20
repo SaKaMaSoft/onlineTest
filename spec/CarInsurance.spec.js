@@ -137,7 +137,7 @@ describe("[CarInsurance]", function () {
     });
   });
 
-  describe("New Product", function () {
+  describe("[New Product]", function () {
     it("Standard price update.", function () {
       const carInsurance = new CarInsurance([new Product('New Product', 10, 20)]);
       const products = carInsurance.updatePrice();
@@ -153,9 +153,9 @@ describe("[CarInsurance]", function () {
     });
   });
 
-  describe("Border Case", function () {
+  describe("[Border Case]", function () {
 
-    it("Price < 0 and different FC, SFC", function () {
+    it("Product Undefined", function () {
       const carInsurance = new CarInsurance();
       const products = carInsurance.updatePrice();
       expect(products[0]).to.be.an('undefined');

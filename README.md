@@ -47,31 +47,7 @@ legendary product and as such its `price` is 80 and it never alters.
 ### Required commands
 - `npm run test`, should run the test suite and display the coverage report
 - `npm run after-30-days`, should display an output similar to `products_after_30_days.txt`
+- `npm run coverage`, should run the coverage and generate file in ./coverage/lcov-report/index.html
 
-You can use this code snipet as reference to implement the `after-30-days` script.
-
-```js
-const productsAtDayZero = [
-  new Product('Medium Coverage', 10, 20),
-  new Product('Full Coverage', 2, 0),
-  new Product('Low Coverage', 5, 7),
-  new Product('Mega Coverage', 0, 80),
-  new Product('Mega Coverage', -1, 80),
-  new Product('Special Full Coverage', 15, 20),
-  new Product('Special Full Coverage', 10, 49),
-  new Product('Special Full Coverage', 5, 49),
-  new Product('Super Sale', 3, 6),
-];
-
-const carInsurance = new CarInsurance(productsAtDayZero);
-const productPrinter = function (product) {
-  console.log(`${product.name}, ${product.sellIn}, ${product.price}`);
-};
-
-for (let i = 1; i <= 30; i += 1) {
-  console.log(`Day ${i}`);
-  console.log('name, sellIn, price');
-  carInsurance.updatePrice().forEach(productPrinter);
-  console.log('');
-}
-```
+### Docker 
+- To download the image of solution run: `docker pull panayadev/poc:interview`
