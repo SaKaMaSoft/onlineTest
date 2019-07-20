@@ -53,7 +53,6 @@ class Product {
         product = info;
         break;
     }
-    // console.log(product);
     return product;
   }
 
