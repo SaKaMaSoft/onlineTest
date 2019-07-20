@@ -17,14 +17,10 @@ class CarInsurance {
           this.products[i].price = this.products[i].price + 1;
           if (this.products[i].name == 'Special Full Coverage') {
             if (this.products[i].sellIn < 11) {
-              if (this.products[i].price < 50) {
-                this.products[i].price = this.products[i].price + 1;
-              }
+              this.products[i].price = this.products[i].price + 1;
             }
             if (this.products[i].sellIn < 6) {
-              if (this.products[i].price < 50) {
-                this.products[i].price = this.products[i].price + 1;
-              }
+              this.products[i].price = this.products[i].price + 1;
             }
           }
         }
