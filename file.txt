@@ -1,0 +1,359 @@
+Day 1
+name, sellIn, price
+Medium Coverage, sellin: 9, price: 19
+Full Coverage, sellin: 1, price: 1
+Low Coverage, sellin: 4, price: 6
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 14, price: 21
+Special Full Coverage, sellin: 9, price: 51
+Special Full Coverage, sellin: 4, price: 52
+Super Sale, sellin: 2, price: 4
+
+Day 2
+name, sellIn, price
+Medium Coverage, sellin: 8, price: 18
+Full Coverage, sellin: 0, price: 2
+Low Coverage, sellin: 3, price: 5
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 13, price: 22
+Special Full Coverage, sellin: 8, price: 51
+Special Full Coverage, sellin: 3, price: 52
+Super Sale, sellin: 1, price: 2
+
+Day 3
+name, sellIn, price
+Medium Coverage, sellin: 7, price: 17
+Full Coverage, sellin: -1, price: 4
+Low Coverage, sellin: 2, price: 4
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 12, price: 23
+Special Full Coverage, sellin: 7, price: 51
+Special Full Coverage, sellin: 2, price: 52
+Super Sale, sellin: 0, price: 0
+
+Day 4
+name, sellIn, price
+Medium Coverage, sellin: 6, price: 16
+Full Coverage, sellin: -2, price: 6
+Low Coverage, sellin: 1, price: 3
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 11, price: 24
+Special Full Coverage, sellin: 6, price: 51
+Special Full Coverage, sellin: 1, price: 52
+Super Sale, sellin: -1, price: 0
+
+Day 5
+name, sellIn, price
+Medium Coverage, sellin: 5, price: 15
+Full Coverage, sellin: -3, price: 8
+Low Coverage, sellin: 0, price: 2
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 10, price: 25
+Special Full Coverage, sellin: 5, price: 51
+Special Full Coverage, sellin: 0, price: 52
+Super Sale, sellin: -2, price: 0
+
+Day 6
+name, sellIn, price
+Medium Coverage, sellin: 4, price: 14
+Full Coverage, sellin: -4, price: 10
+Low Coverage, sellin: -1, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 9, price: 27
+Special Full Coverage, sellin: 4, price: 51
+Special Full Coverage, sellin: -1, price: 0
+Super Sale, sellin: -3, price: 0
+
+Day 7
+name, sellIn, price
+Medium Coverage, sellin: 3, price: 13
+Full Coverage, sellin: -5, price: 12
+Low Coverage, sellin: -2, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 8, price: 29
+Special Full Coverage, sellin: 3, price: 51
+Special Full Coverage, sellin: -2, price: 0
+Super Sale, sellin: -4, price: 0
+
+Day 8
+name, sellIn, price
+Medium Coverage, sellin: 2, price: 12
+Full Coverage, sellin: -6, price: 14
+Low Coverage, sellin: -3, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 7, price: 31
+Special Full Coverage, sellin: 2, price: 51
+Special Full Coverage, sellin: -3, price: 0
+Super Sale, sellin: -5, price: 0
+
+Day 9
+name, sellIn, price
+Medium Coverage, sellin: 1, price: 11
+Full Coverage, sellin: -7, price: 16
+Low Coverage, sellin: -4, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 6, price: 33
+Special Full Coverage, sellin: 1, price: 51
+Special Full Coverage, sellin: -4, price: 0
+Super Sale, sellin: -6, price: 0
+
+Day 10
+name, sellIn, price
+Medium Coverage, sellin: 0, price: 10
+Full Coverage, sellin: -8, price: 18
+Low Coverage, sellin: -5, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 5, price: 35
+Special Full Coverage, sellin: 0, price: 51
+Special Full Coverage, sellin: -5, price: 0
+Super Sale, sellin: -7, price: 0
+
+Day 11
+name, sellIn, price
+Medium Coverage, sellin: -1, price: 8
+Full Coverage, sellin: -9, price: 20
+Low Coverage, sellin: -6, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 4, price: 38
+Special Full Coverage, sellin: -1, price: 0
+Special Full Coverage, sellin: -6, price: 0
+Super Sale, sellin: -8, price: 0
+
+Day 12
+name, sellIn, price
+Medium Coverage, sellin: -2, price: 6
+Full Coverage, sellin: -10, price: 22
+Low Coverage, sellin: -7, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 3, price: 41
+Special Full Coverage, sellin: -2, price: 0
+Special Full Coverage, sellin: -7, price: 0
+Super Sale, sellin: -9, price: 0
+
+Day 13
+name, sellIn, price
+Medium Coverage, sellin: -3, price: 4
+Full Coverage, sellin: -11, price: 24
+Low Coverage, sellin: -8, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 2, price: 44
+Special Full Coverage, sellin: -3, price: 0
+Special Full Coverage, sellin: -8, price: 0
+Super Sale, sellin: -10, price: 0
+
+Day 14
+name, sellIn, price
+Medium Coverage, sellin: -4, price: 2
+Full Coverage, sellin: -12, price: 26
+Low Coverage, sellin: -9, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 1, price: 47
+Special Full Coverage, sellin: -4, price: 0
+Special Full Coverage, sellin: -9, price: 0
+Super Sale, sellin: -11, price: 0
+
+Day 15
+name, sellIn, price
+Medium Coverage, sellin: -5, price: 0
+Full Coverage, sellin: -13, price: 28
+Low Coverage, sellin: -10, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: 0, price: 50
+Special Full Coverage, sellin: -5, price: 0
+Special Full Coverage, sellin: -10, price: 0
+Super Sale, sellin: -12, price: 0
+
+Day 16
+name, sellIn, price
+Medium Coverage, sellin: -6, price: 0
+Full Coverage, sellin: -14, price: 30
+Low Coverage, sellin: -11, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -1, price: 0
+Special Full Coverage, sellin: -6, price: 0
+Special Full Coverage, sellin: -11, price: 0
+Super Sale, sellin: -13, price: 0
+
+Day 17
+name, sellIn, price
+Medium Coverage, sellin: -7, price: 0
+Full Coverage, sellin: -15, price: 32
+Low Coverage, sellin: -12, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -2, price: 0
+Special Full Coverage, sellin: -7, price: 0
+Special Full Coverage, sellin: -12, price: 0
+Super Sale, sellin: -14, price: 0
+
+Day 18
+name, sellIn, price
+Medium Coverage, sellin: -8, price: 0
+Full Coverage, sellin: -16, price: 34
+Low Coverage, sellin: -13, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -3, price: 0
+Special Full Coverage, sellin: -8, price: 0
+Special Full Coverage, sellin: -13, price: 0
+Super Sale, sellin: -15, price: 0
+
+Day 19
+name, sellIn, price
+Medium Coverage, sellin: -9, price: 0
+Full Coverage, sellin: -17, price: 36
+Low Coverage, sellin: -14, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -4, price: 0
+Special Full Coverage, sellin: -9, price: 0
+Special Full Coverage, sellin: -14, price: 0
+Super Sale, sellin: -16, price: 0
+
+Day 20
+name, sellIn, price
+Medium Coverage, sellin: -10, price: 0
+Full Coverage, sellin: -18, price: 38
+Low Coverage, sellin: -15, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -5, price: 0
+Special Full Coverage, sellin: -10, price: 0
+Special Full Coverage, sellin: -15, price: 0
+Super Sale, sellin: -17, price: 0
+
+Day 21
+name, sellIn, price
+Medium Coverage, sellin: -11, price: 0
+Full Coverage, sellin: -19, price: 40
+Low Coverage, sellin: -16, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -6, price: 0
+Special Full Coverage, sellin: -11, price: 0
+Special Full Coverage, sellin: -16, price: 0
+Super Sale, sellin: -18, price: 0
+
+Day 22
+name, sellIn, price
+Medium Coverage, sellin: -12, price: 0
+Full Coverage, sellin: -20, price: 42
+Low Coverage, sellin: -17, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -7, price: 0
+Special Full Coverage, sellin: -12, price: 0
+Special Full Coverage, sellin: -17, price: 0
+Super Sale, sellin: -19, price: 0
+
+Day 23
+name, sellIn, price
+Medium Coverage, sellin: -13, price: 0
+Full Coverage, sellin: -21, price: 44
+Low Coverage, sellin: -18, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -8, price: 0
+Special Full Coverage, sellin: -13, price: 0
+Special Full Coverage, sellin: -18, price: 0
+Super Sale, sellin: -20, price: 0
+
+Day 24
+name, sellIn, price
+Medium Coverage, sellin: -14, price: 0
+Full Coverage, sellin: -22, price: 46
+Low Coverage, sellin: -19, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -9, price: 0
+Special Full Coverage, sellin: -14, price: 0
+Special Full Coverage, sellin: -19, price: 0
+Super Sale, sellin: -21, price: 0
+
+Day 25
+name, sellIn, price
+Medium Coverage, sellin: -15, price: 0
+Full Coverage, sellin: -23, price: 48
+Low Coverage, sellin: -20, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -10, price: 0
+Special Full Coverage, sellin: -15, price: 0
+Special Full Coverage, sellin: -20, price: 0
+Super Sale, sellin: -22, price: 0
+
+Day 26
+name, sellIn, price
+Medium Coverage, sellin: -16, price: 0
+Full Coverage, sellin: -24, price: 50
+Low Coverage, sellin: -21, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -11, price: 0
+Special Full Coverage, sellin: -16, price: 0
+Special Full Coverage, sellin: -21, price: 0
+Super Sale, sellin: -23, price: 0
+
+Day 27
+name, sellIn, price
+Medium Coverage, sellin: -17, price: 0
+Full Coverage, sellin: -25, price: 50
+Low Coverage, sellin: -22, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -12, price: 0
+Special Full Coverage, sellin: -17, price: 0
+Special Full Coverage, sellin: -22, price: 0
+Super Sale, sellin: -24, price: 0
+
+Day 28
+name, sellIn, price
+Medium Coverage, sellin: -18, price: 0
+Full Coverage, sellin: -26, price: 50
+Low Coverage, sellin: -23, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -13, price: 0
+Special Full Coverage, sellin: -18, price: 0
+Special Full Coverage, sellin: -23, price: 0
+Super Sale, sellin: -25, price: 0
+
+Day 29
+name, sellIn, price
+Medium Coverage, sellin: -19, price: 0
+Full Coverage, sellin: -27, price: 50
+Low Coverage, sellin: -24, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -14, price: 0
+Special Full Coverage, sellin: -19, price: 0
+Special Full Coverage, sellin: -24, price: 0
+Super Sale, sellin: -26, price: 0
+
+Day 30
+name, sellIn, price
+Medium Coverage, sellin: -20, price: 0
+Full Coverage, sellin: -28, price: 50
+Low Coverage, sellin: -25, price: 0
+Mega Coverage, sellin: 0, price: 80
+Mega Coverage, sellin: -1, price: 80
+Special Full Coverage, sellin: -15, price: 0
+Special Full Coverage, sellin: -20, price: 0
+Special Full Coverage, sellin: -25, price: 0
+Super Sale, sellin: -27, price: 0

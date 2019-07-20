@@ -1,10 +1,20 @@
-class CarInsurance {
+const Product = require('./Product').Product;
+
+class CarInsurance extends Product {
 
   constructor(products = []) {
+    super();
     this.products = products;
   }
 
   updatePrice() {
+    for (var i = 0; i < this.products.length; i++) {
+      this.products[i] = this.depreciate(this.products[i]);
+    }
+    return this.products;
+  }
+
+  updatePrice2() {
     for (var i = 0; i < this.products.length; i++) {
       if (this.products[i].name != 'Full Coverage' && this.products[i].name != 'Special Full Coverage') {
         if (this.products[i].price > 0) {
