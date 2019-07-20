@@ -1,15 +1,9 @@
-class Product {
-  constructor(name, sellIn, price) {
-    this.name = name;
-    this.sellIn = sellIn;
-    this.price = price;
-  }
-}
-
 class CarInsurance {
+
   constructor(products = []) {
     this.products = products;
   }
+
   updatePrice() {
     for (var i = 0; i < this.products.length; i++) {
       if (this.products[i].name != 'Full Coverage' && this.products[i].name != 'Special Full Coverage') {
@@ -56,12 +50,10 @@ class CarInsurance {
         }
       }
     }
-
     return this.products;
   }
 }
 
 module.exports = {
-  Product,
   CarInsurance
 }
