@@ -83,9 +83,9 @@ class Product {
     product.sellIn = this.calculateSellIn(info.sellIn, info.type);
     if (info.price < 50) {
       product.price = product.price + factor;
-      if (info.sellIn < 0) {
-        product.price = 0;
-      }
+    }
+    if (info.sellIn < 0) {
+      product.price = 0;
     }
     return product;
   }

@@ -62,14 +62,14 @@ describe("[CarInsurance]", function () {
   });
 
   describe("[Mega Coverage Product]", function () {
-    it("Standard price update", function () {
+    it("Shouln't change values", function () {
       const carInsurance = new CarInsurance([new Product('Mega Coverage', 0, 80)]);
       const products = carInsurance.updatePrice();
       const product = new Product('Mega Coverage', 0, 80);
       expect(products[0]).to.eql(product);
     });
 
-    it("SellIn < 0 should update price in -2", function () {
+    it("SellIn < 0 should shouldn't change values", function () {
       const carInsurance = new CarInsurance([new Product('Mega Coverage', -1, 20)]);
       const products = carInsurance.updatePrice();
       const product = new Product('Mega Coverage', -1, 20);
@@ -78,7 +78,7 @@ describe("[CarInsurance]", function () {
   });
 
   describe("[Special Full Coverage Product]", function () {
-    it("Standard price update", function () {
+    it("Should update price +1", function () {
       const carInsurance = new CarInsurance([new Product('Special Full Coverage', 15, 20)]);
       const products = carInsurance.updatePrice();
       const product = new Product('Special Full Coverage', 14, 21);
@@ -106,7 +106,14 @@ describe("[CarInsurance]", function () {
       expect(products[0]).to.eql(product);
     });
 
-    it.only("SellIn < 10 and price > 50 should maintain price", function () {
+    it("SellIn = 0 and price > 50 should update price in 0.", function () {
+      const carInsurance = new CarInsurance([new Product('Special Full Coverage', 0, 52)]);
+      const products = carInsurance.updatePrice();
+      const product = new Product('Special Full Coverage', -1, 0);
+      expect(products[0]).to.eql(product);
+    });
+
+    it("SellIn < 10 and price > 50 should maintain price", function () {
       const carInsurance = new CarInsurance([new Product('Special Full Coverage', 9, 51)]);
       const products = carInsurance.updatePrice();
       const product = new Product('Special Full Coverage', 8, 51);
@@ -115,14 +122,14 @@ describe("[CarInsurance]", function () {
   });
 
   describe("[Super Sale Product]", function () {
-    it("Standard price update", function () {
+    it("Should update price in +2", function () {
       const carInsurance = new CarInsurance([new Product('Super Sale', 15, 20)]);
       const products = carInsurance.updatePrice();
       const product = new Product('Super Sale', 14, 18);
       expect(products[0]).to.eql(product);
     });
 
-    it("SellIn < 0 should put price in 0.", function () {
+    it("SellIn < 0 should update price +4.", function () {
       const carInsurance = new CarInsurance([new Product('Super Sale', -1, 20)]);
       const products = carInsurance.updatePrice();
       const product = new Product('Super Sale', -2, 16);
@@ -131,7 +138,7 @@ describe("[CarInsurance]", function () {
   });
 
   describe("New Product", function () {
-    it("New Product should only differ day.", function () {
+    it("Standard price update.", function () {
       const carInsurance = new CarInsurance([new Product('New Product', 10, 20)]);
       const products = carInsurance.updatePrice();
       const product = new Product('New Product', 9, 19);
@@ -146,7 +153,7 @@ describe("[CarInsurance]", function () {
     });
   });
 
-  describe.skip("Border Case", function () {
+  describe("Border Case", function () {
 
     it("Price < 0 and different FC, SFC", function () {
       const carInsurance = new CarInsurance();
